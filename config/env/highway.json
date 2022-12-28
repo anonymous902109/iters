@@ -1,0 +1,15 @@
+{
+  "lanes_count": 4,
+  "right_lane_reward": 0,
+  "time_window": 5,
+  "input_size": 36,
+  "init_type": "train",
+  "expert_timesteps": 200000,
+  "init_buffer_ep": 1000,
+  "true_reward_func": {
+    "collision_reward": -1,
+    "right_lane_reward": 0,
+    "high_speed_reward": 0.4,
+    "lane_change_reward": -0.8
+  }
+}

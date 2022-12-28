@@ -1,0 +1,12 @@
+{
+  "time_window": 5,
+  "input_size": 36,
+  "init_type": "random",
+  "init_buffer_ep": 100,
+  "expert_timesteps": 50000,
+  "true_reward_func": {
+    "goal_rew": 1,
+    "step_pen": -1,
+    "turn_pen": -1
+  }
+}
