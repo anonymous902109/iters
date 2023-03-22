@@ -1,5 +1,7 @@
 # Interactive Reward Shaping  
 
+The code for the paper ``Iterative Reward Shaping using Human Feedback for Correcting Reward Misspecification''.
+
 ## Installation  
 
 ```shell
@@ -9,6 +11,8 @@ pip install -r requirements.txt
 ```
 
 ## Running Experiments  
+
+At the moment, experiments can be run with simulated users.
 
 ```shell
 python main.py --task gridworld  
